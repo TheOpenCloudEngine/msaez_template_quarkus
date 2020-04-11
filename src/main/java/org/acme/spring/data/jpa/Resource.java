@@ -1,5 +1,5 @@
 forEach: Aggregate
-fileName: {{namePascalCase}}Repository.java
+fileName: {{namePascalCase}}Resource.java
 path: {{boundedContext.name}}/{{{options.packagePath}}}
 ---
 
