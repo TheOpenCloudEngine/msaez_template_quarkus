@@ -3,10 +3,11 @@
          xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.acme</groupId>
-    <artifactId>spring-data-jpa-quickstart</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <properties>
+    <groupId>{{options.package}}</groupId>
+    <artifactId>{{name}}</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>{{name}}</name>
+s    <properties>
         <quarkus.version>1.2.0.Final</quarkus.version>
         <compiler-plugin.version>3.8.1</compiler-plugin.version>
         <surefire-plugin.version>2.22.1</surefire-plugin.version>
